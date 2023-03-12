@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    background: #FFFFFF;
+}
+html{
+      font-size: 65.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    background: #171100;
+    border-radius: 24.5px;
+    padding: 11px 41px;
+    text-align: center;
+
+}
+/* ====header=== */
+.navbar{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .row{
+    display: flex;
+}
+.navbar .row-items{
+    display: flex;
+    gap: 42px;
+    margin-right: 70px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #171100;
+   
+}
+.navbar .btn-sign-up{
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #FFFFFF;
+}
